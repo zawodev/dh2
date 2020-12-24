@@ -11,4 +11,5 @@ public class TestScript : MonoBehaviour {
     //    mat.SetFloat("OffsetX", mat.GetFloat("OffsetX") + Time.deltaTime);
     //}
     SpriteRenderer r;
+    //lol
 }
