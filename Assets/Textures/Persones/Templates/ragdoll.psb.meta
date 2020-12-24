@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: 9a99b6aae3e44b640a1ead5bfe9d79d0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: noncol
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 841
+      y: 773
+      width: 1028
+      height: 528
+    spriteID: 81ad19655c7f99047a54aaed0848d41b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -367, y: -1407}
+  - name: glowa
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1206
+      height: 761
+    spriteID: 4b0c70013747d7b468c23c00aa866c37
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1242, y: -1956}
+  - name: dlon
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 630
+      y: 2830
+      width: 174
+      height: 154
+    spriteID: bc6747cab6786c44da225c1d2817415f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1813, y: 1555}
+  - name: lokiec
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 560
+      y: 3511
+      width: 210
+      height: 321
+    spriteID: e1dee523056f820469f5eb6cfd8be631
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1792, y: 2133}
+  - name: bark
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 334
+      y: 3127
+      width: 218
+      height: 380
+    spriteID: fce24a2446ba13a42a753b7ddbf925f4
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1928, y: 1525}
+  - name: brzuch
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 773
+      width: 829
+      height: 877
+    spriteID: 2af6ac833c94c7b42851a5ca0a10e4bc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1568, y: -446}
+  - name: dlon_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 334
+      y: 3896
+      width: 166
+      height: 166
+    spriteID: 9705f7e47be0b3642b48b89d754c56ab
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -897, y: 2501}
+  - name: lokiec_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 334
+      y: 2830
+      width: 288
+      height: 289
+    spriteID: 2660e65d6f1f03e4b95df38825eb3eff
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -951, y: 1346}
+  - name: bark_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2348
+      width: 322
+      height: 333
+    spriteID: 236466ce7bc73f0459171e230ca0e51f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1422, y: 674}
+  - name: udo
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 560
+      y: 3127
+      width: 209
+      height: 376
+    spriteID: 9ff981596ec45574583bdfd50443c428
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1121, y: 2121}
+  - name: stopa
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 334
+      y: 2591
+      width: 383
+      height: 231
+    spriteID: c8345959d3421054781f2dc9a98f2c73
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1166, y: 1942}
+  - name: piszczel
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1627
+      width: 631
+      height: 713
+    spriteID: 5a844ade79538cb4c9388ee6ba0dbdca
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1254, y: 961}
+  - name: udo_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 334
+      y: 3515
+      width: 216
+      height: 373
+    spriteID: a3240ffe5de68484c8b43981ce6bbb96
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1782, y: 2516}
+  - name: stopa_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 334
+      y: 2348
+      width: 384
+      height: 235
+    spriteID: 68260459a4f217a4985cc8d9c06a3138
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1629, y: 1718}
+  - name: piszczel_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1218
+      y: 4
+      width: 655
+      height: 695
+    spriteID: d46b389371bd32f4bafbf4ce1c422fcc
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -468, y: -639}
+  platformSettings:
+  - name: Default
+    overridden: 1
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 2048
+  documentSize: {x: 3780, y: 3780}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 2048
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: 2
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 00000000000000000000000000000000
+    layerID: 35
+    mosaicPosition: {x: 0, y: 0}
+  - name: noncol
+    spriteName: noncol
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 81ad19655c7f99047a54aaed0848d41b
+    layerID: 33
+    mosaicPosition: {x: 841, y: 773}
+  - name: reka2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 40
+    mosaicPosition: {x: 0, y: 0}
+  - name: dlon
+    spriteName: dlon
+    isGroup: 0
+    parentIndex: 2
+    spriteID: bc6747cab6786c44da225c1d2817415f
+    layerID: 39
+    mosaicPosition: {x: 630, y: 2830}
+  - name: lokiec
+    spriteName: lokiec
+    isGroup: 0
+    parentIndex: 2
+    spriteID: e1dee523056f820469f5eb6cfd8be631
+    layerID: 38
+    mosaicPosition: {x: 560, y: 3511}
+  - name: bark
+    spriteName: bark
+    isGroup: 0
+    parentIndex: 2
+    spriteID: fce24a2446ba13a42a753b7ddbf925f4
+    layerID: 34
+    mosaicPosition: {x: 334, y: 3127}
+  - name: brzuch
+    spriteName: brzuch
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2af6ac833c94c7b42851a5ca0a10e4bc
+    layerID: 27
+    mosaicPosition: {x: 4, y: 773}
+  - name: glowa
+    spriteName: glowa
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 4b0c70013747d7b468c23c00aa866c37
+    layerID: 30
+    mosaicPosition: {x: 4, y: 4}
+  - name: reka1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 46
+    mosaicPosition: {x: 0, y: 0}
+  - name: dlon
+    spriteName: dlon_1
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 9705f7e47be0b3642b48b89d754c56ab
+    layerID: 45
+    mosaicPosition: {x: 334, y: 3896}
+  - name: lokiec
+    spriteName: lokiec_1
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 2660e65d6f1f03e4b95df38825eb3eff
+    layerID: 44
+    mosaicPosition: {x: 334, y: 2830}
+  - name: bark
+    spriteName: bark_1
+    isGroup: 0
+    parentIndex: 8
+    spriteID: 236466ce7bc73f0459171e230ca0e51f
+    layerID: 43
+    mosaicPosition: {x: 4, y: 2348}
+  - name: noga1
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 55
+    mosaicPosition: {x: 0, y: 0}
+  - name: udo
+    spriteName: udo
+    isGroup: 0
+    parentIndex: 12
+    spriteID: 9ff981596ec45574583bdfd50443c428
+    layerID: 54
+    mosaicPosition: {x: 560, y: 3127}
+  - name: stopa
+    spriteName: stopa
+    isGroup: 0
+    parentIndex: 12
+    spriteID: c8345959d3421054781f2dc9a98f2c73
+    layerID: 53
+    mosaicPosition: {x: 334, y: 2591}
+  - name: piszczel
+    spriteName: piszczel
+    isGroup: 0
+    parentIndex: 12
+    spriteID: 5a844ade79538cb4c9388ee6ba0dbdca
+    layerID: 52
+    mosaicPosition: {x: 4, y: 1627}
+  - name: noga2
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 49
+    mosaicPosition: {x: 0, y: 0}
+  - name: udo
+    spriteName: udo_1
+    isGroup: 0
+    parentIndex: 16
+    spriteID: a3240ffe5de68484c8b43981ce6bbb96
+    layerID: 47
+    mosaicPosition: {x: 334, y: 3515}
+  - name: stopa
+    spriteName: stopa_1
+    isGroup: 0
+    parentIndex: 16
+    spriteID: 68260459a4f217a4985cc8d9c06a3138
+    layerID: 48
+    mosaicPosition: {x: 334, y: 2348}
+  - name: piszczel
+    spriteName: piszczel_1
+    isGroup: 0
+    parentIndex: 16
+    spriteID: d46b389371bd32f4bafbf4ce1c422fcc
+    layerID: 25
+    mosaicPosition: {x: 1218, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: ragdoll Texture
+  prefabAssetName: ragdoll Prefab
+  spriteLibAssetName: ragdoll Sprite Lib
+  secondarySpriteTextures: []
