@@ -4423,7 +4423,7 @@ MonoBehaviour:
     target: {fileID: 1186353492}
     moveSpeed: 6
     magnifySpeed: 6
-    size: 7
+    size: 9
     dynamicOffset: {x: 0, y: 0, z: 0}
     staticOffset: {x: 0, y: 1, z: 0}
     bounds: 1
