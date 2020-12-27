@@ -3180,12 +3180,12 @@ PrefabInstance:
     - target: {fileID: 2006936188021256656, guid: f1186a93c30b3eb4799ddfd4fbdf56bc,
         type: 3}
       propertyPath: port
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2006936188021256656, guid: f1186a93c30b3eb4799ddfd4fbdf56bc,
         type: 3}
       propertyPath: sceneName
-      value: KarkowD
+      value: PathHQ
       objectReference: {fileID: 0}
     - target: {fileID: 2006936188021256657, guid: f1186a93c30b3eb4799ddfd4fbdf56bc,
         type: 3}

@@ -8,8 +8,8 @@ public class OrderController : MonoBehaviour {
     public bool moving; //or 2 points for liner, called in update
     public Transform point;
 
-    [HideInInspector]
     [Space]
+    [HideInInspector]
     public bool linerBETA;
     [HideInInspector]
     public int amplitude = 10;
