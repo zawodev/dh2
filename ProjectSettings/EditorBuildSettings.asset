@@ -6,18 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/PURPLE/House.unity
+    path: Assets/Scenes/PURPLE/0_Menu.unity
+    guid: 880ca69abe2b3ba48b3422b5aa800013
+  - enabled: 1
+    path: Assets/Scenes/PURPLE/1_Garden.unity
+    guid: 1ef47df09d503684798463909bb87465
+  - enabled: 1
+    path: Assets/Scenes/PURPLE/2_House.unity
+    guid: 793a446274daeaf469e8f76084303223
+  - enabled: 1
+    path: Assets/Scenes/PURPLE/3_Home.unity
     guid: 014ad2194044f8748b6abdb47fbf9c73
   - enabled: 1
-    path: Assets/Scenes/PURPLE/KarkowD.unity
+    path: Assets/Scenes/PURPLE/4_KarkowD.unity
     guid: d5146ef715300fc408ceebf1054a7b82
   - enabled: 1
-    path: Assets/Scenes/PURPLE/KarkowG.unity
+    path: Assets/Scenes/PURPLE/5_KarkowG.unity
     guid: 2fff5fdd874a4da419a46c35997b3723
   - enabled: 1
-    path: Assets/Scenes/PURPLE/PathHQ.unity
+    path: Assets/Scenes/PURPLE/6_Bar.unity
+    guid: d06dd7c79f2e1e74db9cd22d02828bf6
+  - enabled: 1
+    path: Assets/Scenes/PURPLE/7_PathHQ.unity
     guid: 1eb0b3b4ef29dcf459ade83f6aff88d5
   - enabled: 1
-    path: Assets/Scenes/PURPLE/HQ.unity
+    path: Assets/Scenes/PURPLE/8_HQ.unity
     guid: ada1da989ebc8704bb650022ebca84b5
   m_configObjects: {}

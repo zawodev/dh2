@@ -61,6 +61,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -122,13 +124,13 @@ TextureImporter:
       name: tree-hight_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 4
         y: 0
-        width: 1299
+        width: 596
         height: 2376
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 717, z: 0, w: 310}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -143,13 +145,13 @@ TextureImporter:
       name: tree-hight_1
       rect:
         serializedVersion: 2
-        x: 1220
+        x: 791
         y: 0
-        width: 1156
+        width: 397
         height: 2376
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 759, z: 0, w: 357}
       outline: []
       physicsShape: []
       tessellationDetail: 0

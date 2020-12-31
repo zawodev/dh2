@@ -46,9 +46,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isActive: 1
   isChosen: 0
-  isInfinitiv: 1
+  canOnShift: 0
+  isInfinitiv: 0
+  name: flash_light
   type: 1
-  name: flashlight
   inHand: {fileID: 21300000, guid: ccc504c9ce08cf24ba228806d378995e, type: 3}
   generateFromCalculations: 1
   firePointPos: {x: 0, y: 0, z: 0}
@@ -68,6 +69,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -92,7 +94,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ccc504c9ce08cf24ba228806d378995e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4f932bd11caca8a428452dafe805324f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

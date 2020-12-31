@@ -17,7 +17,8 @@ public abstract class EventHolder : MonoBehaviour {
     [HideInInspector]
     public bool priorityComeBack;
 
-    public bool block; // pernament block, one time use, may needs player prefs?
+    [HideInInspector]
+    public bool block; // pernament block, one time use, may needs player prefs? (for fabula and shit)
 
     bool inPlace;
 
@@ -28,6 +29,9 @@ public abstract class EventHolder : MonoBehaviour {
             off = Resources.Load<Sprite>("HUD/off");
 
             ChangeSprite(off);
+        }
+        else if (!autoTrigger) { //&&!interactible
+            gameObject.SetActive(false);
         }
     }
     private void Start() {

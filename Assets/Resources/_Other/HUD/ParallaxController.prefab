@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4662128203858241558
 Transform:
   m_ObjectHideFlags: 0
@@ -61,7 +61,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4662128204113502233}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.7177, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4662128203858241558}
@@ -111,8 +111,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 12, y: 6.75}
+  m_DrawMode: 2
+  m_Size: {x: 26.666666, y: 20.435396}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -141,6 +141,7 @@ MonoBehaviour:
   inlcudeY: 1
   auto: 0
   speed: 0
+  offset: {x: 0, y: 0}
 --- !u!1 &4662128204186202114
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,8 +168,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4662128204186202114}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 2.3237, z: 0}
+  m_LocalScale: {x: 1, y: 1.309824, z: 1}
   m_Children: []
   m_Father: {fileID: 4662128203858241558}
   m_RootOrder: 0
@@ -247,6 +248,7 @@ MonoBehaviour:
   inlcudeY: 1
   auto: 0
   speed: 0
+  offset: {x: 0, y: 0}
 --- !u!1 &4662128204367399545
 GameObject:
   m_ObjectHideFlags: 0
@@ -293,7 +295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   changeInEditor: 0
-  offsetX: 0
+  offset: {x: 0, y: 0}
   currentLandScape: 0
 --- !u!1 &4662128204663197066
 GameObject:
@@ -436,6 +438,7 @@ MonoBehaviour:
   inlcudeY: 1
   auto: 0
   speed: 0
+  offset: {x: 0, y: 0}
 --- !u!1 &4662128205002560690
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,6 +545,7 @@ MonoBehaviour:
   inlcudeY: 1
   auto: 0
   speed: 0
+  offset: {x: 0, y: 0}
 --- !u!1 &4662128205039735835
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,7 +572,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4662128205039735835}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 2.2384, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4662128203858241558}
@@ -618,8 +622,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 12, y: 6.75}
+  m_DrawMode: 2
+  m_Size: {x: 26.666666, y: 19.47689}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -648,6 +652,7 @@ MonoBehaviour:
   inlcudeY: 1
   auto: 0
   speed: 0
+  offset: {x: 0, y: 0}
 --- !u!1 &4662128205114028830
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,6 +759,7 @@ MonoBehaviour:
   inlcudeY: 1
   auto: 0
   speed: 0
+  offset: {x: 0, y: 0}
 --- !u!1 &4662128205175314011
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,6 +866,7 @@ MonoBehaviour:
   inlcudeY: 1
   auto: 0
   speed: 0
+  offset: {x: 0, y: 0}
 --- !u!1 &4662128205357982218
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,6 +974,7 @@ MonoBehaviour:
   inlcudeY: 1
   auto: 0
   speed: 0
+  offset: {x: 0, y: 0}
 --- !u!1 &4662128205556771759
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,6 +1081,7 @@ MonoBehaviour:
   inlcudeY: 1
   auto: 0
   speed: 0
+  offset: {x: 0, y: 0}
 --- !u!1 &4662128205912017650
 GameObject:
   m_ObjectHideFlags: 0
@@ -1099,8 +1108,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4662128205912017650}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4662128203858241558}
   m_RootOrder: 3
@@ -1149,8 +1158,8 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 19.26, y: 6.21}
+  m_DrawMode: 2
+  m_Size: {x: 26.666666, y: 19.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1179,3 +1188,4 @@ MonoBehaviour:
   inlcudeY: 1
   auto: 0
   speed: 0
+  offset: {x: 0, y: 0}

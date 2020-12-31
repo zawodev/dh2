@@ -11,8 +11,7 @@ public class ParallaxController : MonoBehaviour {
     public bool changeInEditor;
 
     [Space]
-    [Range(0f, 0.1f)]
-    public float offsetX;
+    public Vector2 offset;
 
     GameObject pref;
     Parallax parallax;
@@ -43,8 +42,9 @@ public class ParallaxController : MonoBehaviour {
                         childL.transform.localScale = new Vector3(1, 1, 1);
                         childR.transform.localScale = new Vector3(1, 1, 1);
 
-                        childL.transform.localPosition = new Vector3(-(parallax.gameObject.GetComponent<SpriteRenderer>().bounds.size.x / parallax.transform.localScale.x) + offsetX, 0, 0);
-                        childR.transform.localPosition = new Vector3((parallax.gameObject.GetComponent<SpriteRenderer>().bounds.size.x / parallax.transform.localScale.x) - offsetX, 0, 0);
+                        childL.transform.localPosition = new Vector3(-(parallax.gameObject.GetComponent<SpriteRenderer>().bounds.size.x / parallax.transform.localScale.x) + offset.x, 0, 0);
+                        childR.transform.localPosition = new Vector3((parallax.gameObject.GetComponent<SpriteRenderer>().bounds.size.x / parallax.transform.localScale.x) - offset.x, 0, 0);
+                        parallax.offset = offset;
                     }
                     pref = null;
                 }

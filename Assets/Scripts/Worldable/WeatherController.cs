@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading;
 using UnityEngine;
+using UnityEditor;
 using UnityEngine.Experimental.Rendering.Universal;
 
 public class WeatherController : MonoBehaviour {
@@ -99,6 +100,9 @@ public class WeatherController : MonoBehaviour {
             }
         }
     }
+    public void ActualizeLightColor() {
+        _light.color = startColor;
+    }
 }
 [System.Serializable]
 public class DayTime {
@@ -116,4 +120,16 @@ public class WeatherTime {
     public Transform parent;
     ParticleSystem[] particles;
 }
+[CustomEditor(typeof(WeatherController))]
+public class WeatherControllerEditor : Editor {
+    public override void OnInspectorGUI() {
+        DrawDefaultInspector();
+
+        WeatherController wc = (WeatherController)target;
+        if (GUILayout.Button("Actualize Light Color")) {
+            wc.ActualizeLightColor();
+        }
+    }
+}
+
 

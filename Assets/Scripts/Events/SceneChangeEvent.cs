@@ -6,21 +6,28 @@ using UnityEngine.SceneManagement;
 public class SceneChangeEvent : EventHolder {
 
     [Header("Scene Change")]
-    [Range(0, 13)]
-    public int port;
-    public string sceneName;
+    [Range(-1, 13)]
+    public int port = -1;
+
+    /*
+    [Range(-1, 9)][HideInInspector]
+    public int sceneIndex = -1;
+    */
+
+    public enum SceneName { None, Menu, Garden, House, Home, KarkowD, KarkowG, Bar, PathHQ, HQ};
+    public SceneName sceneName;
 
     float transitionTime;
 
     public override void OurStart() {
         transitionTime = GameMenager.gameMenager.transitionTime;
-        if (port != 0 && port == PlayerPrefs.GetInt("sceneport")) {
+        if (port != -1 && port == PlayerPrefs.GetInt("sceneport")) {
             PlayerController.playerController.SetPose(transform.position);
             PlayerPrefs.SetInt("sceneport", 0);
         }
     }
     public override void TriggerEvent() {
-        if (sceneName != "") StartCoroutine(Fader());
+        if (sceneName != 0) StartCoroutine(Fader());
         else Debug.LogWarning("There is no scene name in " + gameObject.name);
     }
     IEnumerator Fader() {
@@ -34,6 +41,6 @@ public class SceneChangeEvent : EventHolder {
         PlayerPrefs.SetInt("sceneport", port);
         //CameraFollow.CF.ActualizeCameraSettings(); // this dont work lol
 
-        SceneManager.LoadScene(sceneName);
+        if (sceneName != 0) SceneManager.LoadScene((int)sceneName - 1);
     }
 }

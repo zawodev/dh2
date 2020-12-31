@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,6 +8,9 @@ using UnityEngine.UI;
 public class GameMenager : MonoBehaviour {
 
     public static GameMenager gameMenager;
+
+    [Space]
+    [Header("=== Loading Screen Settings ===")]
 
     public float transitionTime = 1;
     public float transitionBonus = 1;
@@ -17,6 +21,20 @@ public class GameMenager : MonoBehaviour {
 
     GameObject panel;
     public Vector2 closePos;
+
+    [Space]
+    [Header("=== Other Settings ===")]
+
+    public float setting1;
+
+    /*
+    public static readonly ReadOnlyCollection<string> sceneName = new ReadOnlyCollection<string>(
+   new[] {
+    "a",
+    "b"
+   }
+ );
+    */
 
     private void Awake() {
         if (gameMenager != null) {

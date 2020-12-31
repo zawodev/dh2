@@ -110,7 +110,7 @@ public class Inventory : MonoBehaviour {
         for (int i = 0; i <= 8; i++) {
             if (i == chose) {
                 //slots[i].gameObject.GetComponent<Image>().sprite = on;
-                slots[i].transform.GetChild(0).GetComponent<Image>().color = onnn;
+                slots[i].border.color = onnn;
                 if (i < myItems.Count) {
                     myItems[i].isChosen = true;
                     handItemSprite.sprite = myItems[i].inHand;
@@ -121,7 +121,7 @@ public class Inventory : MonoBehaviour {
             }
             else {
                 //slots[i].gameObject.GetComponent<Image>().sprite = off;
-                slots[i].transform.GetChild(0).GetComponent<Image>().color = offf;
+                slots[i].border.color = offf;
                 if (i < myItems.Count) myItems[i].isChosen = false;
             }
         }

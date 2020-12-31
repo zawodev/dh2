@@ -16,6 +16,9 @@ public class Parallax : MonoBehaviour {
     [Range(-1f, 1f)]
     public float speed;
 
+    [HideInInspector]
+    public Vector2 offset;
+
     private void Awake() {
         cam = CameraFollow.CF.gameObject;
         startPosX = transform.position.x;
@@ -32,11 +35,11 @@ public class Parallax : MonoBehaviour {
             }
         }
         else {
-            tempX = (cam.transform.position.x * (1 - parallexEffect)); // -1 at end + speed variable
-            distX = (cam.transform.position.x * parallexEffect);
+            tempX = ((cam.transform.position.x + offset.x) * (1 - parallexEffect)); // -1 at end + speed variable
+            distX = ((cam.transform.position.x + offset.x) * parallexEffect);
 
             if (inlcudeY) {
-                distY = (cam.transform.position.y * parallexEffect);
+                distY = ((cam.transform.position.y + offset.y) * parallexEffect);
             }
 
             transform.position = new Vector3(startPosX + distX, startPosY + distY, transform.position.z);

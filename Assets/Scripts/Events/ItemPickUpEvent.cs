@@ -28,6 +28,8 @@ public class ItemPickUpEvent : EventHolder {
     }
     public void ActualizeItem(Item _item, int _amount) {
         item = Resources.Load<Item>("Items/" + _item.type.ToString() + "/" + _item.name);
+        if (item == null) Debug.LogError("name not correct lol");
+
         amount = _amount;
 
         //OnStart();
